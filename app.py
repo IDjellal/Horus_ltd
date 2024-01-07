@@ -3,6 +3,7 @@ from flask import Flask, render_template
 app=Flask(__name__)
 #run fonction generer et  avec paramettre dans la fonction taux monte 
 #ect...pour faire userrequest
+#render 
 PAGES=[
     {
       'id':1,
