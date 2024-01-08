@@ -46,6 +46,7 @@
   </style>
 </head>
 <body>
+  {% include 'nav.html' %}
   <div id="content" class="container mt-4">
     <h1 class="mb-4">Horus Investment</h1>
     <img id="banner" src="https://51f98af2-62c0-4bf6-9ddf-91c3fe1771df-00-l8rh1pqh99av.riker.replit.dev/static/image2.jpg" class="img-fluid mb-4" alt="Banner Image">
@@ -57,16 +58,12 @@
           {% include 'pages.html' %}
     {% endfor %}
   </div>
-    <button class="btn mb-4" style="background-color: grey; color: white;">Contact us</button>
-    <div class="text-center">
-      <p>Copyright 2024, Eclaire</p>
-    </div>
-  </div>
 
-  <!-- Bootstrap JS and Popper.js (required for Bootstrap's JavaScript plugins) -->
+  </div>
+  {% include 'footer.html' %}
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
